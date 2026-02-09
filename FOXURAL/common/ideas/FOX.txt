@@ -19,7 +19,7 @@ ideas = {
             modifier = {
                 stability_factor = 0.1
                 mobilization_speed = 0.015
-                army_attack_factor = 0.5
+                army_attack_factor = 0.05
             }
         }
 
@@ -41,7 +41,7 @@ ideas = {
             allowed = { original_tag = FOX }
 
             modifier = {
-                population_growth = 0.005
+                monthly_population = 0.5
                 training_time_factor = -0.10
                 resistance_growth = 0.25
             }

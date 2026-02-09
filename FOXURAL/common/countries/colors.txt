@@ -4,6 +4,46 @@ FOX = {
 	color_ui = rgb { 0 101 0 }
 }
 
+LOR = {
+	color = rgb { 65 105 255 }
+	color_ui = rgb { 65 105 255 }
+}
+
+KBN = {
+	color = rgb { 0 191 255 }
+	color_ui = rgb { 0 191 255 }
+}
+
+NYA = {
+	color = rgb { 119 221 119 }
+	color_ui = rgb { 119 221 119 }
+}
+
+LAG = {
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}
+
+NYA = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 101 0 }
+}
+
+MIH = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+AMU = {
+	color = rgb { 255 215 0  }
+	color_ui = rgb { 255 216 0 }
+}
+
+KUZ = {
+	color = rgb { 255 255 255  }
+	color_ui = rgb { 255 255 255 }
+}
+
 ANO = {
 	color = rgb { 0 191 255 }
 	color_ui = rgb { 0 191 256 }
