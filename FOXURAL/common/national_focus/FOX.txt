@@ -1,0 +1,30 @@
+focus_tree = {
+    id = FOX_focus_tree
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = FOX
+        }
+    }
+
+    default = no
+
+    initial_show_position = {
+        focus = start_FOX
+    }
+
+    focus = {
+        id = start_FOX
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 0
+        cost = 10
+        available_if_capitulated = no
+
+        completion_reward = {
+            add_ideas = { idea_FOX_comitte idea_tankograd_heritage idea_ural_solidarity }
+        }
+    }
+}

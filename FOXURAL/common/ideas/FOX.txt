@@ -1,0 +1,50 @@
+ideas = {
+
+    country = {
+
+        idea_FOX_comitte = {
+
+            allowed = {
+                original_tag = FOX
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = GFX_idea_FOX_comitte
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = 0.1
+                mobilization_speed = 0.015
+                army_attack_factor = 0.5
+            }
+        }
+
+        idea_tankograd_heritage = {
+            picture = GFX_idea_generic_industry
+            removal_cost = -1
+            allowed = { original_tag = FOX }
+
+            modifier = {
+                production_factory_max_efficiency_factor = 0.02
+                cic_construction_boost_factor = 0.15
+
+            }
+        }
+
+        idea_ural_solidarity = {
+            picture = GFX_idea_generic_social
+            removal_cost = -1
+            allowed = { original_tag = FOX }
+
+            modifier = {
+                population_growth = 0.005
+                training_time_factor = -0.10
+                resistance_growth = 0.25
+            }
+        }
+    }
+}
